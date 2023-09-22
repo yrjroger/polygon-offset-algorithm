@@ -16,7 +16,7 @@ public class OffsetTest {
 
     @Test
     public void testTriangle() throws IOException, InterruptedException {
-        offsetTest("file/triangle.txt",3.0,10);
+        offsetTest("file/triangle.txt",13.0,1);
         TimeUnit.HOURS.sleep(1);
     }
 
@@ -28,7 +28,7 @@ public class OffsetTest {
 
     @Test
     public void testStar() throws IOException, InterruptedException {
-        offsetTest("file/star.txt",4.0,17);
+        offsetTest("file/star.txt",14.0,1);
         TimeUnit.HOURS.sleep(1);
     }
 
